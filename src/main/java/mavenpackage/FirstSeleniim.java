@@ -23,6 +23,8 @@ public class FirstSeleniim {
     driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("location");
 
     driver.findElement(By.name("Login")).click();
+
+    driver.findElement(By.name("gr")).click();
     Thread.sleep(3000);
 
     // driver.quit();
